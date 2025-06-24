@@ -1,0 +1,12 @@
+body {
+    /* font-family: "Roboto"; */
+}
+ul {
+    list-style-type: none;
+}
+a {
+    
+}
+.hero, .footer {
+    background-color: #1F293f;
+}
