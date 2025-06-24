@@ -2,7 +2,7 @@ body {
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
-    
+    margin: 0;
     /* flex-direction: rows; */
     /* justify-content: space-between; */
 }
@@ -21,7 +21,7 @@ a {
 .hero {
     display: flex;
     flex-direction: column;
-    
+    padding: 24px;
 }
 .header {
     display: flex;
@@ -40,6 +40,23 @@ a {
     gap: 16px;
     padding-right: 24px;
     /* justify-content: space-around; */
+}
+.content-1 {
+    display: flex;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.content-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-text {
+    display: flex;
+}
+
+.content-3 {
+    
 }
 
 .footer {
