@@ -50,7 +50,7 @@ button {
     align-items: center;
 }
 .logo {
-    padding-left: 24px;
+    /* padding-left: 24px; */
     font-size: 24px;
     /* font-size: 24px; */
     /* color: #F9FAF8; */
@@ -59,16 +59,18 @@ button {
     display: flex;
     flex-direction: row;
     gap: 16px;
-    padding-right: 24px;
+    /* padding-right: 24px; */
     /* justify-content: space-around; */
 }
 .content-1 {
     display: flex;
-    padding-left: 24px;
-    padding-right: 24px;
+    
+    
 }
 .hero-right img {
     background-color: gray;
+    height: 400px;
+    width: 500px;
 }
 .content-2 {
     display: flex;
@@ -110,9 +112,12 @@ button {
 }
 
 .quotes {
+    flex: auto;
     display: flex;
     flex-direction: column;
     width: 600px;
+    /* height: 400px; */
+    padding: 24px;
 }
 .quote {
     font-size: 36px;
@@ -123,15 +128,23 @@ button {
 .quoter {
     align-self: flex-end;
     font-weight: 700;
+    font-size: 16px;
 }
 .content-4 {
-    
+    padding: 24px;
 }
-.content-4 .blue-colour {
+.call {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 100px;
+    border-radius: 10px;
+    padding: 10px 100px;
+}
+.c4-right {
+    border: 2px solid white;
+    padding: 5px 24px;
 }
 .footer {
     position: fixed;
