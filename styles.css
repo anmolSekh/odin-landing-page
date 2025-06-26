@@ -14,6 +14,12 @@ a {
     text-decoration: none;
     color: white;
 }
+button {
+    border-radius: 5px;
+    padding: 8px 20px;
+    outline: 0;
+    border: 0;
+}
 .hero, .footer {
     background-color: #1F293f;
     color: #F9FAF8;
@@ -28,12 +34,14 @@ a {
     font-size: 48px;
     font-weight: 900;
 }
-.hero-left p {
+
+.subtext {
     font-size: 18px;
     color: #E5E7EB;
 }
 .blue-colour {
     background-color: #3882F6;
+    color: white;
 }
 .header {
     display: flex;
@@ -52,14 +60,15 @@ a {
     flex-direction: row;
     gap: 16px;
     padding-right: 24px;
-    font-size: 18px;
-    color: #E5E7EB;
     /* justify-content: space-around; */
 }
 .content-1 {
     display: flex;
     padding-left: 24px;
     padding-right: 24px;
+}
+.hero-right img {
+    background-color: gray;
 }
 .content-2 {
     display: flex;
@@ -68,7 +77,11 @@ a {
     text-align: center;
     /* gap: 8px; */
 }
-
+.content-2 h2 {
+    font-size: 36px;
+    color: #1F293f;
+    font-weight: 900;
+}
 .box-text {
     display: flex;
 }
@@ -99,14 +112,27 @@ a {
 .quotes {
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 600px;
 }
-
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
 .quoter {
     align-self: flex-end;
     font-weight: 700;
 }
-
+.content-4 {
+    
+}
+.content-4 .blue-colour {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 .footer {
     position: fixed;
     bottom: 0;
